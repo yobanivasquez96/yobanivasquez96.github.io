@@ -1,0 +1,39 @@
+/* Style Sheet If You Build It (table), They Will Come */
+/* Name:Yobani Vasquez                                 */
+
+/* Gradient target HTML body element tag */
+
+body{background-image: linear-gradient( to right,cadetblue,purple,red)}
+
+
+/* css target tableStyle class in HTML */
+.tableStyle {border: 5px solid cadetblue;width: 100%; margin-top: 50px;}
+
+table, th, td{border: 2px solid #6b6b83;}
+
+tbody tr:nth-child(even){
+    background-color: lightblue;
+}
+
+
+/* css target HTML Table caption tag */
+
+caption{color: white;font-size: 35px;}
+
+/* css target HTML Table thead tag */
+ 
+thead{background-color:white;text-align: left;}
+ 
+/* css target HTML Table tfoot tag */
+ 
+tfoot{text-align: center;background-color: white;}
+ 
+/* Add a pseudo-class selector (page 320) */
+/* For example --  :nth-child(even)       */
+ 
+tbody tr:nth-child(odd){
+    background-color:#6b6b83;
+}
+ 
+/* use colgroup */
+/* Week 3, Wednesday Video Lesson Chapter 8 folder - Table Column Group, page 173 */

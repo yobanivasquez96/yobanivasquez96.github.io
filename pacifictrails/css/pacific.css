@@ -1,0 +1,108 @@
+/*Yobani Vasquez 11/18/2021 */
+
+body 
+{ 
+	background-color: #FFFFFF;
+    color: #666666;
+	family: Arial, Helvetica, sans-serif;
+}
+header 
+{ 
+	background-color: #000033;
+    color: #FFFFFF; 
+	background-image: url(../images/sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat; 
+	line-height: 400%;
+	text-indent: 1em;
+	background-size: cover;
+}
+
+nav
+{ 
+	background-color: #90C7E3;
+     font-weight: bold;
+}
+
+nav a 
+{ 
+	text-decoration: none; 
+}
+nav ul li
+{
+	list-style-type: none;
+	display: block;
+}
+
+h1 
+{ 
+	margin-bottom: 0; 
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+	
+h2 
+{ 
+	color: #3399CC; 
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+	 
+h3 
+{ 
+	color: #000033;
+    family: Georgia, 'Times New Roman', serif; 
+}
+
+main ul li
+{ 
+	list-style-image: url("../images/marker.gif"); 
+} 
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+footer 
+{ 
+	font-size: 75%;
+    font-style: italic;
+	text-align: center;
+	family: Georgia, 'Times New Roman', serif;
+	background-image: linear-gradient(transparent,rgba(255, 255, 255, 0.507),rgb(228, 226, 226),#3399CC);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+	   
+dt 
+{ 
+	color: #000033; 
+}
+
+.resort 
+{ 
+	color: #5C7FA3; 
+    font-weight: bold;
+}
+
+#contact
+{ 
+	font-size: 90%; 
+}
+/** Mobile**/
+
+img, h2{
+	display: none;
+}
+
+/******* Tablet *******/
+
+@media screen and (min-width:641px){
+img{
+	width: 100%;
+	display: block;
+	height: auto;
+}
+nav ul li{
+	display: inline;
+}
+}

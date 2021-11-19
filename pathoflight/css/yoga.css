@@ -1,0 +1,97 @@
+/* Yobani Vasquez 11/19/2021 */
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(../images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+      font-weight: bold;
+	
+}
+nav ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;
+	margin-bottom: .5em;
+}
+
+main ul li{
+	list-style-image: url(../images/yogabullet.png);
+	margin-left: 3em;
+}
+.schedule{
+	border-collapse: collapse;
+	border: solid 1px black;
+	width: 100%;
+	margin-bottom: .5em;
+}
+
+thead, tbody, tr, td{
+	text-align: center;
+	border: solid 1px black;
+}
+/*************** Mobile******************/
+nav ul li{
+	display: block;
+	
+}
+ header{
+	 background-image: none;
+ }
+
+ body{ background-image: url(../images/yogamobile.png);
+background-repeat: no-repeat;background-size: cover;}
+
+ img{
+	 display: none;
+ }
+
+/*************** Tablet *****************/
+
+@media screen and (min-width:641px){
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+nav ul li{
+	display: inline;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(../images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	max-width: 100%;
+}
+
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+	display: contents;
+}
+
+}

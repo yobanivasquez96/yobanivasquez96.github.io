@@ -1,0 +1,228 @@
+/* Yobani Vasquez 12/8/2021 */
+
+/*nav styles*/
+ .navstyle{
+   font-weight: bolder;
+   padding: 15px;
+ }
+ navbar{
+   position: sticky;
+ }
+ button .navbar{
+   display: none;
+ }
+
+ nav li a:hover{
+  color:rgb(216, 19, 19);
+  background-image:linear-gradient(rgb(255, 255, 255),rgb(245, 110, 110),rgb(216, 19, 19));
+  border-color:rgb(199, 43, 43);
+  font-size: 20px;
+  border-radius: 10px;
+}
+nav img:hover{
+  background-image:linear-gradient(rgb(255, 255, 255),rgb(245, 110, 110),rgb(216, 19, 19));
+  border-radius: 10px;
+}
+nav a:hover{
+  font-size: 22px;
+  background-image:linear-gradient(rgb(255, 255, 255),rgb(245, 110, 110),rgb(216, 19, 19));
+  border-color:rgb(199, 43, 43);
+  border-radius: 10px;
+}
+ /* responsive images styles*/
+
+.img-fluid{
+  max-width: 100%;height: auto;
+}
+/* Homepage Styles*/
+html{
+  scroll-behavior: smooth;
+}
+.mario{
+  position: relative; top: -40px;
+  animation: walk 17s 10s both infinite linear;
+}
+.luigi{
+  margin-top: -20px;
+  margin-bottom: -100px;
+  animation: walk2 14s 45s both infinite linear;
+}
+body{
+  background: rgb(53, 52, 52)!important;
+  width: auto;
+}
+.whoisvip{
+  color: rgb(216, 19, 19);
+  text-align: center;
+  margin-top: -35px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+main p{
+  color: white;
+  margin-top: 20px;
+  font-size: 1.5em;
+  padding: 10px;
+}
+main ul li{
+  color: white;
+  font-size: 1.2em;
+}
+.coins{
+  list-style-image: url(../images/coinflip.gif);
+}
+.pborder{
+  border: solid 2px white;
+  padding: 2px;
+}
+.phonetext{color: white;}
+
+.aboutus{
+  color: #d81313;
+  text-align: center;
+ margin-top: 60px;
+ margin-bottom: 30px;
+ font-weight: bolder;
+}
+
+/*Jumbotron styles*/
+ .jumbotron h1{
+   font-weight: bolder;
+   color: rgb(216, 19, 19);
+   font-family: 'Righteous', cursive,'Times New Roman', Times, serif;
+   font-size: 5.5em;
+ }
+
+ .jumbotron p{
+  color: rgb(216, 19, 19);
+   font-weight: bolder;
+   font-size: 3em;
+   font-family: 'Righteous', cursive,'Times New Roman', Times, serif;
+   padding-top: 50px;
+ }
+
+.jumbotronback{
+  background-image: url(../images/overlandstorefrontat75.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+ } 
+ /*Carousel styles*/
+.carousel{
+  width: 900px;
+  height: auto;
+  border: solid 2px white;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.carousel-item img{
+ width: 100%;
+ height: 35em;
+ margin: auto;
+ max-width: 100%;
+}
+/*Modal Styles*/
+.button{
+  color: red!important;
+  text-align: center;
+  padding: 10px;
+}
+.mheader{
+
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 100px;
+}
+.modalstyles p{
+  color: black;
+  font-size: 1em;
+}
+/*Contact us styles*/
+.contactus{
+  color: rgb(216, 19, 19);
+  text-align: center;
+ margin-top: 60px;
+ margin-bottom: 30px;
+ font-weight: bolder;
+}
+
+.phonebutton{
+  color: red!important;
+  position: relative; right: -373px; top: 30px;
+}
+iframe{
+  width: 100%;
+  border-radius: 10px;
+}
+.pcontactus{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-size: 2em;
+  padding: 10px;
+  
+}
+/*Footer Styles*/
+.socialicons{
+  padding: 8px;
+}
+.socialicons:hover{
+  background-color: white;
+  border-radius: 20px;
+}
+.mailicon{
+  color: rgb(216, 19, 19);
+  font-size: 60px;
+  position: relative; right: -8px; top: 17px;
+}
+.mailicon:hover{
+    border-radius: 100px;
+  color: white;
+}
+/* animations */
+
+@keyframes walk{
+  from{transform: translateX(-450px);}
+  to{transform: translateX(1500px);}
+}
+@keyframes walk2 {
+  from{transform: translateX(1550px);}
+  to{transform: translateX(-450px);}
+}
+
+/*Tablet
+@media screen and (min-width:641px){
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  }
+
+  Mobile
+  @media screen and (max-width:400px) {
+    .jumbotron{
+      display: block;
+      width: 100%;
+      font-size: 10px;
+    }
+    .jumbotronback
+    {
+      width: 100%;
+    }
+    .mario
+    {
+      display: none;
+    }
+    nav ul li{
+      display: block;
+    }
+    .hamburger{
+      display: block;
+    }
+  }
+  **/
+ 

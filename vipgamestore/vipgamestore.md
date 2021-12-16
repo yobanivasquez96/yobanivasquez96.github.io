@@ -1,0 +1,1 @@
+/* VIP Gamestore business website
